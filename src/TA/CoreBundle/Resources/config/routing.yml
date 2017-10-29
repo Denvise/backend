@@ -1,0 +1,11 @@
+ta_core_login:
+    path:     /
+    defaults: { _controller: TACoreBundle:Security:login }
+
+ta_core_panel:
+    path:     /panel
+    defaults: { _controller: TACoreBundle:Security:panel }
+
+ta_core_logout:
+    path:    /logout
+    defaults: { _controller: TACoreBundle:Security:logout }
